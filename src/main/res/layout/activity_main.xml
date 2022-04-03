@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A64A8F40"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/txt_counter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ground"
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:textSize="50sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ttt"
+        android:textColor="@color/button"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#13D5AE"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="onClickBtnAddFrogs"
+        android:text="@string/btn_mew"
+        android:textColor="#A5F4AF"
+        android:textSize="40sp"
+        app:backgroundTint="@color/button"
+        tools:ignore="UsingOnClickInXml" />
+
+</LinearLayout>
